@@ -25,9 +25,9 @@ public class Ejemplo033 {
         int contador = 1;
         int suma = 0;
         int valor_ingresado;
-        
+
         System.out.println("Ingrese el límite");
-            limite = entrada.nextInt();
+        limite = entrada.nextInt();
         while (contador <= limite) {
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt(); // 20
