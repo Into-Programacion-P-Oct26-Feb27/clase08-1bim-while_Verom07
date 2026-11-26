@@ -1,0 +1,39 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package ejemplociclowhile;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+/**
+ *
+ * @author SALASC
+ */
+public class Ejemplo062 {
+    
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+        boolean bandera = true;
+        
+        while(bandera==true){
+            System.out.println("Estoy en el ciclo"); // Estoy en el ciclo
+            
+            String salir;
+            System.out.println("Desea salir del ciclo, ingrese si.");
+            salir = entrada.nextLine(); 
+            if(salir.equals("si")){ 
+                bandera = false;
+            }
+        }
+    }
+}
+/*
+En el ejercicio se inicializa con true a la variable bandera, se va al ciclo,
+se comprueba si cumple con la condición de true == true como es true ingresa al
+ciclo y presenta en pantalla la frase "Estoy en el ciclo", luego pregunta si desea
+salir y que de el valor de -100, si se ingresa ese valor se sale del ciclo, caso 
+contrario sigue en el ciclo hasta que salir cumpla la condición de ser == -100
+*/
