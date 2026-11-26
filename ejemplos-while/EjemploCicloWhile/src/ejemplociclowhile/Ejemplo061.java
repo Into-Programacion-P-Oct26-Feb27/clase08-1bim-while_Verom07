@@ -32,8 +32,8 @@ public class Ejemplo061 {
 }
 /*
 En el ejercicio se inicializa con true a la variable bandera, se va al ciclo,
-se comprueba si cumple con la condicion de true == true como es true ingresa al
-ciclo y presneta en pantalla la frese "Estoy en el ciclo", luego pregunta si desea
-salir y que de el valor de -100, si se ingresa ese valor se sale del cislo, caso 
-contrario sigue en el ciclo hasta que salir cumpla la condicion de ser == -100
+se comprueba si cumple con la condición de true == true como es true ingresa al
+ciclo y presenta en pantalla la frase "Estoy en el ciclo", luego pregunta si desea
+salir y que de el valor de -100, si se ingresa ese valor se sale del ciclo, caso 
+contrario sigue en el ciclo hasta que salir cumpla la condición de ser == -100
 */
